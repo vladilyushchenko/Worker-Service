@@ -5,8 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.annotation.Version;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.UUID;
 
 import static lombok.AccessLevel.PUBLIC;
@@ -18,11 +22,17 @@ import static lombok.AccessLevel.PUBLIC;
 @AllArgsConstructor
 public class BaseEntity {
 
+    @Id
     protected UUID id;
 
     protected Boolean deleted;
 
-    protected Date createdAt;
+    @CreatedDate
+    protected LocalDate createdAt;
 
-    protected Date lastModifiedAt;
+    @LastModifiedDate
+    protected LocalDate lastModifiedAt;
+
+    @Version
+    protected Short version;
 }

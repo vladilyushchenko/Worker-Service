@@ -22,11 +22,12 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
-	compileOnly 'org.projectlombok:lombok'
+	compileOnly "org.springframework:spring-jdbc"
 	runtimeOnly 'io.r2dbc:r2dbc-postgresql'
 	runtimeOnly 'org.postgresql:postgresql'
 
 	// LOMBOK
+	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	// FLYWAY
 	implementation "org.flywaydb:flyway-core:$flywayVersion"
@@ -34,10 +35,19 @@ dependencies {
 	implementation "com.google.guava:guava:$guavaVersion"
 	// MAPSRTRUCT
 	implementation "org.mapstruct:mapstruct:$mapstructVersion"
+	annotationProcessor "org.mapstruct:mapstruct-processor:$mapstructVersion"
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 }
+
+apply plugin: 'idea'
+idea {
+	module {
+		downloadJavadoc = true
+	}
+}
+
 
 test {
 	useJUnitPlatform()

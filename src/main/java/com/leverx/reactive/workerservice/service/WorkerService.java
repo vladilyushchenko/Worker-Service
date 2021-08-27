@@ -1,17 +1,20 @@
 package com.leverx.reactive.workerservice.service;
 
-import com.leverx.reactive.workerservice.entity.Worker;
+import com.leverx.reactive.workerservice.dto.WorkerDto;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
-import java.util.List;
 import java.util.UUID;
 
 public interface WorkerService {
 
-    List<Worker> findAll();
+    Flux<WorkerDto> findAll();
 
-    Worker findById(UUID id);
+    Mono<WorkerDto> findById(UUID id);
+
+    Mono<WorkerDto> create(WorkerDto worker);
 
     void deleteById(UUID id);
 
-    Worker update(Worker worker);
+    Mono<WorkerDto> update(WorkerDto worker);
 }
