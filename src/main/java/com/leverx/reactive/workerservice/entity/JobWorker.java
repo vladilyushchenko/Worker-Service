@@ -14,7 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table("jobs_workers")
-public class JobWorker {
+public class JobWorker extends BaseEntity {
 
     @Id
     private Long id;

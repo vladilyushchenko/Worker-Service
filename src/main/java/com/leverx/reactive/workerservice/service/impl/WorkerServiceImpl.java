@@ -55,12 +55,6 @@ public class WorkerServiceImpl implements WorkerService {
                         .saveAll(extractJobWorkerSet(workerDto, savedWorker))
                         .then(Mono.just(savedWorker))
                 )
-                .doOnSuccess(worker -> {
-                    System.out.println(worker.getId());
-                    if (Objects.nonNull(worker.getJobWorkers())) {
-                        worker.getJobWorkers().forEach(System.out::println);
-                    }
-                })
                 .map(workerMapper::mapEntityToDto);
     }
 
