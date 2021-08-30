@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/jobs")
 @RequiredArgsConstructor
@@ -17,7 +19,7 @@ public class JobController {
     private final JobService jobService;
 
     @PostMapping
-    public Mono<JobDto> createJob(@RequestBody JobDto jobDto) {
+    public Mono<JobDto> createJob(@Valid @RequestBody JobDto jobDto) {
         return jobService.create(jobDto);
     }
 }
