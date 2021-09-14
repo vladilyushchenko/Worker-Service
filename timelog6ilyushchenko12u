@@ -1,0 +1,154 @@
+Script started on 2021-09-14 03:42:44-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo groupadd student12u
+[sudo] password for ilyushchenko12: 
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo usermod -aG student12u u[Kilyushchenko12
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo chmod g+rw ../DDD[K[K[KDDD[K[K[KDD[K[K[4P[C[6P[2P[1@~[3P ../[K[Kls
+time_log  timelog6ilyushchenko12u
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ pwd
+/home/ilyushchenko12/Desktop
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ../ilyushchenko/[K[K[K../h[K[Kl../..s../.. ../..[C[C[C[C[C/
+[0m[01;34milyushchenko12[0m
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ls ../../..
+[0m[01;36mbin[0m    [01;34mdev[0m   [01;36mlib[0m    [01;36mlibx32[0m      [01;34mmnt[0m   [01;34mroot[0m  [01;34msnap[0m      [01;34msys[0m  [01;34mvar[0m
+[01;34mboot[0m   [01;34metc[0m   [01;36mlib32[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msrv[0m       [30;42mtmp[0m
+[01;34mcdrom[0m  [01;34mhome[0m  [01;36mlib64[0m  [01;34mmedia[0m       [01;34mproc[0m  [01;36msbin[0m  swapfile  [01;34musr[0m
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ls ../../../home
+[0m[01;34milyushchenko12[0m
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ls ../../../homeD[K[K[K[K[K[K[Kls ../../..[K[6Ppwd[1Plssudo usermod -aG student12u ilyushchenko12[18Pgroupadd student12uusermod -aG student12u ilyushchenko12[18Pgroupadd student12uusermod -aG student12u ilyushchenko12[K[K[K[K[K[K[K[Kchmode g+rw ../../../home
+sudo: chmode: command not found
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo chmode g+rw ../../../home[1P
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sidp adduse[K[K[K[K[K[Ksudo as[K[Kadda[Kuser student12u
+adduser: The group `student12u' already exists.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo adduser student12u[1P[1P student12u[1P student12u[1P student12u[1P student12u[1P student12u[1P student12uu student12us student12ue student12ur student12ua student12ud student12ud student12u
+useradd: group student12u exists - if you want to add this user to that group, use -g.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo useradd student12u[1P student12u[1P student12u[1P student12u[1P student12u[1P student12u[1P student12u[1P student12ua student12ud student12ud student12uu student12us student12ue student12ur student12u[C
+adduser: The group `student12u' already exists.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo adduser student12unstudent12uestudent12uwstudent12u
+Adding user `newstudent12u' ...
+Adding new group `newstudent12u' (1002) ...
+Adding new user `newstudent12u' (1001) with group `newstudent12u' ...
+Creating home directory `/home/newstudent12u' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for newstudent12u
+Enter the new value, or press ENTER for the default
+	Full Name []: new student
+	Room Number []: 801   229 0
+	Work Phone []: 220
+	Home Phone []: 220
+	Other []: 220
+Is the information correct? [Y/n] Y
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ sudo usermod -a -G student12u newstudent12u
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ^V[Kcat /etc/group | grep group7[K[K[K[K[K[Kstudent12u
+[01;31m[Kstudent12u[m[K:x:1001:ilyushchenko12,new[01;31m[Kstudent12u[m[K
+new[01;31m[Kstudent12u[m[K:x:1002:
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ssh pi@raspb[Kberry:192.168.56.101
+ssh: Could not resolve hostname raspberry:192.168.56.101: Name or service not known
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ssh pi@raspberry:192.168.56.101[1Praspberry:192.168.56.101[1Praspberry:192.168.56.101[1Paspberry:192.168.56.101[1Pspberry:192.168.56.101[1Ppberry:192.168.56.101[1Pberry:192.168.56.101[1Perry:192.168.56.101[1Prry:192.168.56.101[C[1Py:192.168.56.101[1Py:192.168.56.101[1P:192.168.56.101i:192.168.56.101@:192.168.56.101[1P192.168.56.101
+pi@192.168.56.101's password: 
+Linux raspberry 4.19.0-13-amd64 #1 SMP Debian 4.19.160-2 (2020-11-28) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Sep 14 10:11:27 2021 from 192.168.56.1
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ssh pi@192.168.56.101[1Pi@192.168.56.101[1P@192.168.56.101n@192.168.56.101e@192.168.56.101w@192.168.56.101s@192.168.56.101t@192.168.56.101u@192.168.56.101d@192.168.56.101e@192.168.56.101n@192.168.56.101t@192.168.56.1011@192.168.56.1012@192.168.56.101r@192.168.56.101
+newstudent12r@192.168.56.101's password: 
+Permission denied, please try again.
+newstudent12r@192.168.56.101's password: 
+Permission denied, please try again.
+newstudent12r@192.168.56.101's password: 
+^Z
+[1]+  Stopped                 ssh newstudent12r@192.168.56.101
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ssh newstudent12r@192.168.56.101[C[C_wstudent12r@192.168.56.101[1Pwstudent12r@192.168.56.101[C_student12r@192.168.56.101
+new_student12r@192.168.56.101's password: 
+Linux raspberry 4.19.0-13-amd64 #1 SMP Debian 4.19.160-2 (2020-11-28) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m ls
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m cd ..
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m ls
+[0m[01;34mnew_student12r[0m  [01;34mpi[0m
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m cd [K[K[Kmkdir new)_d[K[K[K_dir
+mkdir: cannot create directory ‘new_dir’: Permission denied
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m sudo mkdir new0[K_dir
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for new_student12r: 
+new_student12r is not in the sudoers file.  This incident will be reported.
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m sudo mkdir new_dir[5P[C[C[C[C[C[C[C[C[C[C[C[C[C
+mkdir: cannot create directory ‘new_dir’: Permission denied
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m ls[K[Kcd ..
+]0;new_student12r@raspberry: /[01;32mnew_student12r@raspberry[00m:[01;34m/ $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ ssh new_student12r@192.168.56.101[1Pstudent12r@192.168.56.101_student12r@192.168.56.101
+new_student12r@192.168.56.101's password: 
+Linux raspberry 4.19.0-13-amd64 #1 SMP Debian 4.19.160-2 (2020-11-28) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Sep 14 12:20:18 2021 from 192.168.56.1
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m ls
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m cd ..
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m ls
+[0m[01;34mnew_student12r[0m  [01;34mpi[0m
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m cd ne_[Kw_student12r/
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m mkdir new-dir
+]0;new_student12r@raspberry: ~[01;32mnew_student12r@raspberry[00m:[01;34m~ $[00m cd ..
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m mkdir new_dir
+mkdir: cannot create directory ‘new_dir’: Permission denied
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m mkdir new_dir[K[K[K[K-dir
+mkdir: cannot create directory ‘new-dir’: Permission denied
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m sudo[K[K[K[Kls
+[0m[01;34mnewndsa[0m  [01;34mnew_student12r[0m  [01;34mpi[0m
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m sudo mkdir[Kr new_disa
+[sudo] password for new_student12r: 
+new_student12r is not in the sudoers file.  This incident will be reported.
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m get[K[K[Kgetent
+getent: wrong number of arguments
+Try `getent --help' or `getent --usage' for more information.
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m getent pas[K[K[Kgroup | head -5
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:pi
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m sudo addgrouip[K[Kp[Kp student12u[Kr
+[sudo] password for new_student12r: 
+new_student12r is not in the sudoers file.  This incident will be reported.
+]0;new_student12r@raspberry: /home[01;32mnew_student12r@raspberry[00m:[01;34m/home $[00m getn[Kent [K[K[K[K[K[Kexit
+logout
+-bash: /home/new_student12r/.bash_logout: Permission denied
+-bash: /etc/bash.bash_logout: Permission denied
+Connection to 192.168.56.101 closed.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ clo[K[K[Kexit
+exit
+There are stopped jobs.
+]0;ilyushchenko12@ubuntu: ~/Desktop[01;32milyushchenko12@ubuntu[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2021-09-14 05:09:41-07:00 [COMMAND_EXIT_CODE="1"]
