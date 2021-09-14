@@ -1,0 +1,52 @@
+Script started on 2021-09-13 03:35:50-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="132" LINES="42"]
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ pwd
+/home/ilyushchenko12
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ mkdir ilyushchenko
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m     [01;34mMusic[0m     [01;34mPublic[0m     time_log                   timelog4ilyushchenko12u
+[01;34mDocuments[0m  [01;34milyushchenko[0m  [01;34mPictures[0m  [01;34mTemplates[0m  timelog3.3ilyushchenko12u  [01;34mVideos[0m
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ п[Kgit
+
+Command 'git' not found, but can be installed with:
+
+sudo apt install git
+
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ ыгвщ фз[K[K[K[K[Ksudo apt install git
+[sudo] password for ilyushchenko12: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 13 not upgraded.
+Need to get 5,465 kB of archives.
+After this operation, 38.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m            Get:1 http://us.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+[33m0% [1 liberror-perl 0 B/26.5 kB 0%][0m[33m                                   7% [Working][0m            Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.2 [884 kB]
+[33m7% [2 git-man 4,037 B/884 kB 0%][0m[33m11% [2 git-man 252 kB/884 kB 28%][0m[33m15% [2 git-man 512 kB/884 kB 58%][0m[33m18% [2 git-man 774 kB/884 kB 88%][0m[33m                                 27% [Waiting for headers][0m                         Get:3 http://us.archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.2 [4,554 kB]
+[33m27% [3 git 2,188 B/4,554 kB 0%][0m[33m                               31% [3 git 267 kB/4,554 kB 6%][0m[33m35% [3 git 541 kB/4,554 kB 12%][0m[33m39% [3 git 811 kB/4,554 kB 18%][0m[33m43% [3 git 1,082 kB/4,554 kB 24%][0m[33m46% [3 git 1,350 kB/4,554 kB 30%][0m[33m50% [3 git 1,616 kB/4,554 kB 35%][0m[33m54% [3 git 1,891 kB/4,554 kB 42%][0m[33m58% [3 git 2,159 kB/4,554 kB 47%]                                                                                       479 kB/s 4s[0m[33m62% [3 git 2,433 kB/4,554 kB 53%]                                                                                       479 kB/s 4s[0m[33m66% [3 git 2,704 kB/4,554 kB 59%]                                                                                       479 kB/s 3s[0m[33m70% [3 git 2,977 kB/4,554 kB 65%]                                                                                       479 kB/s 3s[0m[33m74% [3 git 3,245 kB/4,554 kB 71%]                                                                                       479 kB/s 2s[0m[33m78% [3 git 3,516 kB/4,554 kB 77%]                                                                                       479 kB/s 2s[0m[33m82% [3 git 3,789 kB/4,554 kB 83%]                                                                                       479 kB/s 1s[0m[33m86% [3 git 4,057 kB/4,554 kB 89%]                                                                                       479 kB/s 1s[0m[33m90% [3 git 4,328 kB/4,554 kB 95%]                                                                                       479 kB/s 0s[0m[33m100% [Working]                                                                                                          479 kB/s 0s[0m                                                                                                                                   Fetched 5,465 kB in 11s (504 kB/s)
+
+7[0;41r8[1ASelecting previously unselected package liberror-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 186756 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+7[42;0f[42m[30mProgress: [  0%][49m[39m [..............................................................................................................] 87[42;0f[42m[30mProgress: [  8%][49m[39m [########......................................................................................................] 8Unpacking liberror-perl (0.17029-1) ...
+7[42;0f[42m[30mProgress: [ 15%][49m[39m [################..............................................................................................] 8Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.25.1-1ubuntu3.2_all.deb ...
+7[42;0f[42m[30mProgress: [ 23%][49m[39m [#########################.....................................................................................] 8Unpacking git-man (1:2.25.1-1ubuntu3.2) ...
+7[42;0f[42m[30mProgress: [ 31%][49m[39m [#################################.............................................................................] 8Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.25.1-1ubuntu3.2_amd64.deb ...
+7[42;0f[42m[30mProgress: [ 38%][49m[39m [##########################################....................................................................] 8Unpacking git (1:2.25.1-1ubuntu3.2) ...
+7[42;0f[42m[30mProgress: [ 46%][49m[39m [##################################################............................................................] 8Setting up liberror-perl (0.17029-1) ...
+7[42;0f[42m[30mProgress: [ 54%][49m[39m [###########################################################...................................................] 87[42;0f[42m[30mProgress: [ 62%][49m[39m [###################################################################...........................................] 8Setting up git-man (1:2.25.1-1ubuntu3.2) ...
+7[42;0f[42m[30mProgress: [ 69%][49m[39m [############################################################################..................................] 87[42;0f[42m[30mProgress: [ 77%][49m[39m [####################################################################################..........................] 8Setting up git (1:2.25.1-1ubuntu3.2) ...
+7[42;0f[42m[30mProgress: [ 85%][49m[39m [#############################################################################################.................] 87[42;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################################################################.........] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;42r8[1A[J]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ пше
+пше: command not found
+]0;ilyushchenko12@ubuntu: ~[01;32milyushchenko12@ubuntu[00m:[01;34m~[00m$ got[K[Kit
+usage: git 
