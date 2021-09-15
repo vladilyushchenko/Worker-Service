@@ -1,0 +1,1364 @@
+Script started on 2021-09-14 05:35:37-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ os [K[K[Kps --help
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps
+    PID TTY          TIME CMD
+ 212029 pts/0    00:00:00 bash
+ 212621 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps
+    PID TTY          TIME CMD
+ 212029 pts/0    00:00:00 bash
+ 212677 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps
+    PID TTY          TIME CMD
+ 212029 pts/0    00:00:00 bash
+ 212696 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps
+    PID TTY          TIME CMD
+ 212029 pts/0    00:00:00 bash
+ 212721 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps -a
+    PID TTY          TIME CMD
+   4209 tty2     00:01:49 Xorg
+   4259 tty2     00:00:00 gnome-session-b
+ 212028 pts/1    00:00:00 script
+ 213002 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps =e[K[K-e
+    PID TTY          TIME CMD
+      1 ?        00:02:11 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      6 ?        00:00:00 kworker/0:0H-events_highpri
+      9 ?        00:00:00 mm_percpu_wq
+     10 ?        00:00:00 rcu_tasks_rude_
+     11 ?        00:00:00 rcu_tasks_trace
+     12 ?        00:00:02 ksoftirqd/0
+     13 ?        00:01:53 rcu_sched
+     14 ?        00:00:00 migration/0
+     15 ?        00:00:00 idle_inject/0
+     16 ?        00:00:00 cpuhp/0
+     17 ?        00:00:00 cpuhp/1
+     18 ?        00:00:00 idle_inject/1
+     19 ?        00:00:00 migration/1
+     20 ?        00:00:02 ksoftirqd/1
+     22 ?        00:00:00 kworker/1:0H-events_highpri
+     23 ?        00:00:00 cpuhp/2
+     24 ?        00:00:00 idle_inject/2
+     25 ?        00:00:00 migration/2
+     26 ?        00:00:01 ksoftirqd/2
+     28 ?        00:00:00 kworker/2:0H-kblockd
+     29 ?        00:00:00 cpuhp/3
+     30 ?        00:00:00 idle_inject/3
+     31 ?        00:00:00 migration/3
+     32 ?        00:00:02 ksoftirqd/3
+     34 ?        00:00:00 kworker/3:0H-events_highpri
+     35 ?        00:00:00 kdevtmpfs
+     36 ?        00:00:00 netns
+     37 ?        00:00:00 inet_frag_wq
+     38 ?        00:00:00 kauditd
+     42 ?        00:00:00 khungtaskd
+     43 ?        00:00:00 oom_reaper
+     44 ?        00:00:00 writeback
+     45 ?        00:00:01 kcompactd0
+     46 ?        00:00:00 ksmd
+     47 ?        00:00:00 khugepaged
+     93 ?        00:00:00 kintegrityd
+     94 ?        00:00:00 kblockd
+     95 ?        00:00:00 blkcg_punt_bio
+     96 ?        00:00:00 tpm_dev_wq
+     97 ?        00:00:00 ata_sff
+     98 ?        00:00:00 md
+     99 ?        00:00:00 edac-poller
+    100 ?        00:00:00 devfreq_wq
+    101 ?        00:00:00 watchdogd
+    104 ?        00:00:04 kworker/1:1H-kblockd
+    107 ?        00:00:00 kswapd0
+    108 ?        00:00:00 ecryptfs-kthrea
+    110 ?        00:00:00 kthrotld
+    111 ?        00:00:00 irq/24-pciehp
+    112 ?        00:00:00 irq/25-pciehp
+    113 ?        00:00:00 irq/26-pciehp
+    114 ?        00:00:00 irq/27-pciehp
+    115 ?        00:00:00 irq/28-pciehp
+    116 ?        00:00:00 irq/29-pciehp
+    117 ?        00:00:00 irq/30-pciehp
+    118 ?        00:00:00 irq/31-pciehp
+    119 ?        00:00:00 irq/32-pciehp
+    120 ?        00:00:00 irq/33-pciehp
+    121 ?        00:00:00 irq/34-pciehp
+    122 ?        00:00:00 irq/35-pciehp
+    123 ?        00:00:00 irq/36-pciehp
+    124 ?        00:00:00 irq/37-pciehp
+    125 ?        00:00:00 irq/38-pciehp
+    126 ?        00:00:00 irq/39-pciehp
+    127 ?        00:00:00 irq/40-pciehp
+    128 ?        00:00:00 irq/41-pciehp
+    129 ?        00:00:00 irq/42-pciehp
+    130 ?        00:00:00 irq/43-pciehp
+    131 ?        00:00:00 irq/44-pciehp
+    132 ?        00:00:00 irq/45-pciehp
+    133 ?        00:00:00 irq/46-pciehp
+    134 ?        00:00:00 irq/47-pciehp
+    135 ?        00:00:00 irq/48-pciehp
+    136 ?        00:00:00 irq/49-pciehp
+    137 ?        00:00:00 irq/50-pciehp
+    138 ?        00:00:00 irq/51-pciehp
+    139 ?        00:00:00 irq/52-pciehp
+    140 ?        00:00:00 irq/53-pciehp
+    141 ?        00:00:00 irq/54-pciehp
+    142 ?        00:00:00 irq/55-pciehp
+    143 ?        00:00:00 acpi_thermal_pm
+    144 ?        00:00:00 scsi_eh_0
+    145 ?        00:00:00 scsi_tmf_0
+    146 ?        00:00:00 scsi_eh_1
+    147 ?        00:00:00 scsi_tmf_1
+    149 ?        00:00:00 vfio-irqfd-clea
+    150 ?        00:00:00 ipv6_addrconf
+    151 ?        00:00:04 kworker/3:1H-kblockd
+    161 ?        00:00:00 kstrp
+    164 ?        00:00:00 zswap-shrink
+    165 ?        00:00:00 kworker/u257:0
+    170 ?        00:00:00 charger_manager
+    219 ?        00:00:06 kworker/0:1H-kblockd
+    220 ?        00:00:00 scsi_eh_2
+    221 ?        00:00:00 scsi_tmf_2
+    222 ?        00:04:23 scsi_eh_3
+    223 ?        00:00:00 scsi_tmf_3
+    224 ?        00:00:00 scsi_eh_4
+    225 ?        00:00:00 scsi_tmf_4
+    226 ?        00:00:00 scsi_eh_5
+    227 ?        00:00:00 scsi_tmf_5
+    228 ?        00:00:00 scsi_eh_6
+    229 ?        00:00:00 scsi_tmf_6
+    230 ?        00:00:00 scsi_eh_7
+    231 ?        00:00:00 scsi_tmf_7
+    232 ?        00:00:00 scsi_eh_8
+    233 ?        00:00:00 scsi_tmf_8
+    234 ?        00:00:00 scsi_eh_9
+    235 ?        00:00:00 scsi_tmf_9
+    236 ?        00:00:00 scsi_eh_10
+    237 ?        00:00:00 scsi_tmf_10
+    238 ?        00:00:00 scsi_eh_11
+    239 ?        00:00:00 scsi_tmf_11
+    240 ?        00:00:00 scsi_eh_12
+    241 ?        00:00:00 scsi_tmf_12
+    242 ?        00:00:00 scsi_eh_13
+    243 ?        00:00:00 scsi_tmf_13
+    244 ?        00:00:00 scsi_eh_14
+    245 ?        00:00:00 scsi_tmf_14
+    246 ?        00:00:00 scsi_eh_15
+    247 ?        00:00:00 scsi_tmf_15
+    248 ?        00:00:00 scsi_eh_16
+    249 ?        00:00:00 scsi_tmf_16
+    250 ?        00:00:00 scsi_eh_17
+    251 ?        00:00:00 scsi_tmf_17
+    252 ?        00:00:00 scsi_eh_18
+    253 ?        00:00:00 scsi_tmf_18
+    254 ?        00:00:00 scsi_eh_19
+    255 ?        00:00:00 scsi_tmf_19
+    256 ?        00:00:00 scsi_eh_20
+    257 ?        00:00:00 scsi_tmf_20
+    258 ?        00:00:00 scsi_eh_21
+    259 ?        00:00:00 scsi_tmf_21
+    260 ?        00:00:00 scsi_eh_22
+    261 ?        00:00:00 scsi_tmf_22
+    262 ?        00:00:00 scsi_eh_23
+    263 ?        00:00:00 scsi_tmf_23
+    264 ?        00:00:00 scsi_eh_24
+    265 ?        00:00:00 scsi_tmf_24
+    266 ?        00:00:00 scsi_eh_25
+    267 ?        00:00:00 scsi_tmf_25
+    268 ?        00:00:00 scsi_eh_26
+    269 ?        00:00:00 scsi_tmf_26
+    270 ?        00:00:00 scsi_eh_27
+    271 ?        00:00:00 scsi_tmf_27
+    272 ?        00:00:00 scsi_eh_28
+    273 ?        00:00:00 scsi_tmf_28
+    274 ?        00:00:00 scsi_eh_29
+    275 ?        00:00:00 scsi_tmf_29
+    276 ?        00:00:00 scsi_eh_30
+    277 ?        00:00:00 scsi_tmf_30
+    278 ?        00:00:00 scsi_eh_31
+    279 ?        00:00:00 scsi_tmf_31
+    284 ?        00:00:00 mpt_poll_0
+    289 ?        00:00:00 mpt/0
+    309 ?        00:00:34 kworker/2:1H-kblockd
+    311 ?        00:00:00 scsi_eh_32
+    312 ?        00:00:00 scsi_tmf_32
+    336 ?        00:00:01 jbd2/sda5-8
+    337 ?        00:00:00 ext4-rsv-conver
+    376 ?        00:00:02 systemd-journal
+    404 ?        00:00:00 loop0
+    407 ?        00:00:38 systemd-udevd
+    408 ?        00:00:00 loop1
+    409 ?        00:00:00 loop2
+    411 ?        00:00:00 loop3
+    432 ?        00:00:00 loop4
+    451 ?        00:00:03 irq/16-vmwgfx
+    452 ?        00:00:00 ttm_swap
+    453 ?        00:00:00 card0-crtc0
+    455 ?        00:00:00 card0-crtc1
+    456 ?        00:00:00 card0-crtc2
+    459 ?        00:00:00 card0-crtc3
+    460 ?        00:00:00 card0-crtc4
+    462 ?        00:00:00 card0-crtc5
+    464 ?        00:00:00 card0-crtc6
+    465 ?        00:00:00 card0-crtc7
+    482 ?        00:00:00 cryptd
+    699 ?        00:00:01 systemd-resolve
+    704 ?        00:00:00 systemd-timesyn
+    836 ?        00:00:00 accounts-daemon
+    837 ?        00:00:01 acpid
+    840 ?        00:00:01 avahi-daemon
+    841 ?        00:00:00 cron
+    845 ?        00:05:36 dbus-daemon
+    848 ?        00:00:08 NetworkManager
+    853 ?        00:00:01 irqbalance
+    861 ?        00:00:00 networkd-dispat
+    868 ?        00:00:04 polkitd
+    871 ?        00:00:00 rsyslogd
+    874 ?        00:00:00 switcheroo-cont
+    875 ?        00:02:39 systemd-logind
+    876 ?        00:04:36 udisksd
+    878 ?        00:00:00 wpa_supplicant
+    885 ?        00:00:00 avahi-daemon
+    927 ?        00:00:00 unattended-upgr
+    933 ?        00:00:00 ModemManager
+   1018 ?        00:00:00 whoopsie
+   1022 ?        00:00:01 kerneloops
+   1027 ?        00:00:01 kerneloops
+   1843 ?        00:00:00 systemd-udevd
+   1844 ?        00:00:00 systemd-udevd
+   1845 ?        00:00:00 systemd-udevd
+   1846 ?        00:00:00 systemd-udevd
+   1847 ?        00:00:00 systemd-udevd
+   1848 ?        00:00:00 systemd-udevd
+   1849 ?        00:00:00 systemd-udevd
+   1850 ?        00:00:00 systemd-udevd
+   1851 ?        00:00:00 systemd-udevd
+   1852 ?        00:00:00 systemd-udevd
+   1853 ?        00:00:00 systemd-udevd
+   1854 ?        00:00:00 systemd-udevd
+   1855 ?        00:00:00 systemd-udevd
+   1856 ?        00:00:00 systemd-udevd
+   1857 ?        00:00:00 systemd-udevd
+   1858 ?        00:00:00 systemd-udevd
+   1859 ?        00:00:00 systemd-udevd
+   1868 ?        00:00:00 systemd-udevd
+   1869 ?        00:00:00 systemd-udevd
+   1870 ?        00:00:00 systemd-udevd
+   1871 ?        00:00:00 systemd-udevd
+   1872 ?        00:11:11 systemd-udevd
+   1873 ?        00:00:00 systemd-udevd
+   1874 ?        00:00:00 systemd-udevd
+   1982 ?        00:00:34 vmtoolsd
+   2100 ?        00:00:00 VGAuthService
+   2932 ?        00:00:00 vmware-vmblock-
+   3556 ?        00:00:00 gdm3
+   3585 ?        00:00:00 rtkit-daemon
+   3693 ?        00:00:00 upowerd
+   3968 ?        00:00:00 colord
+   4078 ?        00:00:00 gdm-session-wor
+   4116 ?        00:00:47 systemd
+   4117 ?        00:00:00 (sd-pam)
+   4126 ?        00:00:11 pulseaudio
+   4128 ?        00:00:00 tracker-miner-f
+   4131 ?        00:00:00 gnome-keyring-d
+   4136 ?        00:00:03 dbus-daemon
+   4139 ?        00:00:00 gvfsd
+   4144 ?        00:00:00 gvfsd-fuse
+   4163 ?        00:00:00 gvfs-udisks2-vo
+   4169 ?        00:00:01 gvfs-afc-volume
+   4176 ?        00:00:00 gvfs-goa-volume
+   4180 ?        00:00:00 goa-daemon
+   4191 ?        00:00:00 goa-identity-se
+   4198 ?        00:00:00 gvfs-mtp-volume
+   4203 tty2     00:00:00 gdm-x-session
+   4204 ?        00:00:00 gvfs-gphoto2-vo
+   4209 tty2     00:01:49 Xorg
+   4259 tty2     00:00:00 gnome-session-b
+   4328 ?        00:00:00 ssh-agent
+   4351 ?        00:00:00 at-spi-bus-laun
+   4356 ?        00:00:00 dbus-daemon
+   4368 ?        00:00:00 gnome-session-c
+   4388 ?        00:00:00 dconf-service
+   4392 ?        00:00:00 gnome-session-b
+   4408 ?        00:03:27 gnome-shell
+   4439 ?        00:00:01 ibus-daemon
+   4446 ?        00:00:00 ibus-memconf
+   4447 ?        00:00:01 ibus-extension-
+   4449 ?        00:00:00 ibus-x11
+   4451 ?        00:00:00 ibus-portal
+   4464 ?        00:00:00 at-spi2-registr
+   4468 ?        00:00:00 gnome-shell-cal
+   4469 ?        00:00:00 xdg-permission-
+   4479 ?        00:00:00 evolution-sourc
+   4490 ?        00:00:00 evolution-calen
+   4503 ?        00:00:00 evolution-addre
+   4504 ?        00:00:00 gvfsd-metadata
+   4522 ?        00:00:00 gjs
+   4530 ?        00:00:00 gvfsd-trash
+   4541 ?        00:00:00 gsd-a11y-settin
+   4542 ?        00:00:00 gsd-color
+   4544 ?        00:00:00 gsd-datetime
+   4545 ?        00:00:01 gsd-housekeepin
+   4547 ?        00:00:00 gsd-keyboard
+   4548 ?        00:00:00 gsd-media-keys
+   4551 ?        00:00:00 gsd-power
+   4552 ?        00:00:00 gsd-print-notif
+   4553 ?        00:00:00 gsd-rfkill
+   4555 ?        00:00:00 gsd-screensaver
+   4556 ?        00:00:00 gsd-sharing
+   4557 ?        00:00:00 gsd-smartcard
+   4558 ?        00:00:00 gsd-sound
+   4567 ?        00:00:00 gsd-usb-protect
+   4568 ?        00:00:00 gsd-wacom
+   4570 ?        00:00:00 gsd-wwan
+   4574 ?        00:00:00 gsd-xsettings
+   4580 ?        00:00:00 evolution-alarm
+   4600 ?        00:00:00 gsd-disk-utilit
+   4613 ?        00:00:37 vmtoolsd
+   4641 ?        00:00:00 gsd-printer
+   4697 ?        00:00:00 ibus-engine-sim
+   5137 ?        00:00:00 gnome-calendar
+   5139 ?        00:00:00 seahorse
+   5757 ?        00:00:01 update-notifier
+   9349 ?        00:00:00 loop5
+   9387 ?        00:01:48 snapd
+  16738 ?        00:00:00 ssh-agent
+  17357 ?        00:00:00 sshd
+  61101 ?        00:00:00 cupsd
+  61104 ?        00:00:00 cups-browsed
+ 173829 ?        00:00:00 gvfsd-recent
+ 174007 ?        00:00:00 gvfsd-network
+ 174407 ?        00:00:00 gvfsd-dnssd
+ 193048 ?        00:00:08 kworker/u256:3-events_unbound
+ 193183 ?        00:00:00 kworker/2:2-rcu_par_gp
+ 199054 ?        00:00:00 kworker/0:2-rcu_gp
+ 199298 ?        00:00:01 kworker/1:0-cgroup_destroy
+ 201316 ?        00:00:04 gnome-terminal-
+ 201440 ?        00:00:00 kworker/2:1-events
+ 201664 ?        00:00:00 kworker/0:1-rcu_par_gp
+ 203030 pts/1    00:00:00 bash
+ 203495 ?        00:00:00 kworker/3:2-events
+ 203937 ?        00:00:00 kworker/1:2-rcu_par_gp
+ 206860 ?        00:00:01 kworker/u256:1-events_unbound
+ 209784 ?        00:00:01 kworker/u256:2-events_unbound
+ 210373 ?        00:00:00 kworker/3:0-events
+ 210864 ?        00:00:00 kworker/0:0-events
+ 210865 ?        00:00:00 kworker/1:1-events
+ 211118 ?        00:00:00 kworker/2:0-events
+ 212028 pts/1    00:00:00 script
+ 212029 pts/0    00:00:00 bash
+ 212140 ?        00:00:00 kworker/u256:0-events_unbound
+ 213032 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps a
+    PID TTY      STAT   TIME COMMAND
+   4203 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+   4209 tty2     Sl+    1:49 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user
+   4259 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary --systemd --syste
+ 203030 pts/1    Ss     0:00 bash
+ 212028 pts/1    S+     0:00 script -ttime_log timelog7ilyushchenko12u task7ilyu
+ 212029 pts/0    Ss     0:00 bash -i
+ 213073 pts/0    R+     0:00 ps a
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps x
+    PID TTY      STAT   TIME COMMAND
+   4116 ?        Ss     0:47 /lib/systemd/systemd --user
+   4117 ?        S      0:00 (sd-pam)
+   4126 ?        Ssl    0:11 /usr/bin/pulseaudio --daemonize=no --log-target=jou
+   4128 ?        SNsl   0:00 /usr/libexec/tracker-miner-fs
+   4131 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   4136 ?        Ss     0:03 /usr/bin/dbus-daemon --session --address=systemd: -
+   4139 ?        Ssl    0:00 /usr/libexec/gvfsd
+   4144 ?        Sl     0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o b
+   4163 ?        Ssl    0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   4169 ?        Ssl    0:01 /usr/libexec/gvfs-afc-volume-monitor
+   4176 ?        Ssl    0:00 /usr/libexec/gvfs-goa-volume-monitor
+   4180 ?        Sl     0:00 /usr/libexec/goa-daemon
+   4191 ?        Sl     0:00 /usr/libexec/goa-identity-service
+   4198 ?        Ssl    0:00 /usr/libexec/gvfs-mtp-volume-monitor
+   4203 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+   4204 ?        Ssl    0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   4209 tty2     Sl+    1:49 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user
+   4259 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary --systemd --syste
+   4328 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHE
+   4351 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   4356 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defau
+   4368 ?        Ssl    0:00 /usr/libexec/gnome-session-ctl --monitor
+   4388 ?        Sl     0:00 /usr/libexec/dconf-service
+   4392 ?        Ssl    0:00 /usr/libexec/gnome-session-binary --systemd-service
+   4408 ?        Ssl    3:27 /usr/bin/gnome-shell
+   4439 ?        Sl     0:01 ibus-daemon --panel disable --xim
+   4446 ?        Sl     0:00 /usr/libexec/ibus-memconf
+   4447 ?        Sl     0:01 /usr/libexec/ibus-extension-gtk3
+   4449 ?        Sl     0:00 /usr/libexec/ibus-x11 --kill-daemon
+   4451 ?        Sl     0:00 /usr/libexec/ibus-portal
+   4464 ?        Sl     0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   4468 ?        Sl     0:00 /usr/libexec/gnome-shell-calendar-server
+   4469 ?        Ssl    0:00 /usr/libexec/xdg-permission-store
+   4479 ?        Ssl    0:00 /usr/libexec/evolution-source-registry
+   4490 ?        Ssl    0:00 /usr/libexec/evolution-calendar-factory
+   4503 ?        Ssl    0:00 /usr/libexec/evolution-addressbook-factory
+   4504 ?        Ssl    0:00 /usr/libexec/gvfsd-metadata
+   4522 ?        Sl     0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell
+   4530 ?        Sl     0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gv
+   4541 ?        Ssl    0:00 /usr/libexec/gsd-a11y-settings
+   4542 ?        Ssl    0:00 /usr/libexec/gsd-color
+   4544 ?        Ssl    0:00 /usr/libexec/gsd-datetime
+   4545 ?        Ssl    0:01 /usr/libexec/gsd-housekeeping
+   4547 ?        Ssl    0:00 /usr/libexec/gsd-keyboard
+   4548 ?        Ssl    0:00 /usr/libexec/gsd-media-keys
+   4551 ?        Ssl    0:00 /usr/libexec/gsd-power
+   4552 ?        Ssl    0:00 /usr/libexec/gsd-print-notifications
+   4553 ?        Ssl    0:00 /usr/libexec/gsd-rfkill
+   4555 ?        Ssl    0:00 /usr/libexec/gsd-screensaver-proxy
+   4556 ?        Ssl    0:00 /usr/libexec/gsd-sharing
+   4557 ?        Ssl    0:00 /usr/libexec/gsd-smartcard
+   4558 ?        Ssl    0:00 /usr/libexec/gsd-sound
+   4567 ?        Ssl    0:00 /usr/libexec/gsd-usb-protection
+   4568 ?        Ssl    0:00 /usr/libexec/gsd-wacom
+   4570 ?        Ssl    0:00 /usr/libexec/gsd-wwan
+   4574 ?        Ssl    0:00 /usr/libexec/gsd-xsettings
+   4580 ?        Sl     0:00 /usr/libexec/evolution-data-server/evolution-alarm-
+   4600 ?        Sl     0:00 /usr/libexec/gsd-disk-utility-notify
+   4613 ?        Sl     0:37 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+   4641 ?        Sl     0:00 /usr/libexec/gsd-printer
+   4697 ?        Sl     0:00 /usr/libexec/ibus-engine-simple
+   5137 ?        Sl     0:00 /usr/bin/gnome-calendar --gapplication-service
+   5139 ?        SLl    0:00 /usr/bin/seahorse --gapplication-service
+   5757 ?        Sl     0:01 update-notifier
+  16738 ?        S      0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ss
+ 173829 ?        Sl     0:00 /usr/libexec/gvfsd-recent --spawner :1.3 /org/gtk/g
+ 174007 ?        Sl     0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/
+ 174407 ?        Sl     0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gv
+ 201316 ?        Rsl    0:04 /usr/libexec/gnome-terminal-server
+ 203030 pts/1    Ss     0:00 bash
+ 212028 pts/1    R+     0:00 script -ttime_log timelog7ilyushchenko12u task7ilyu
+ 212029 pts/0    Ss     0:00 bash -i
+ 213088 pts/0    R+     0:00 ps x
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps ax
+    PID TTY      STAT   TIME COMMAND
+      1 ?        Ss     2:11 /sbin/init auto noprompt
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00 [rcu_gp]
+      4 ?        I<     0:00 [rcu_par_gp]
+      6 ?        I<     0:00 [kworker/0:0H-events_highpri]
+      9 ?        I<     0:00 [mm_percpu_wq]
+     10 ?        S      0:00 [rcu_tasks_rude_]
+     11 ?        S      0:00 [rcu_tasks_trace]
+     12 ?        S      0:02 [ksoftirqd/0]
+     13 ?        I      1:53 [rcu_sched]
+     14 ?        S      0:00 [migration/0]
+     15 ?        S      0:00 [idle_inject/0]
+     16 ?        S      0:00 [cpuhp/0]
+     17 ?        S      0:00 [cpuhp/1]
+     18 ?        S      0:00 [idle_inject/1]
+     19 ?        S      0:00 [migration/1]
+     20 ?        S      0:02 [ksoftirqd/1]
+     22 ?        I<     0:00 [kworker/1:0H-events_highpri]
+     23 ?        S      0:00 [cpuhp/2]
+     24 ?        S      0:00 [idle_inject/2]
+     25 ?        S      0:00 [migration/2]
+     26 ?        S      0:01 [ksoftirqd/2]
+     28 ?        I<     0:00 [kworker/2:0H-kblockd]
+     29 ?        S      0:00 [cpuhp/3]
+     30 ?        S      0:00 [idle_inject/3]
+     31 ?        S      0:00 [migration/3]
+     32 ?        S      0:02 [ksoftirqd/3]
+     34 ?        I<     0:00 [kworker/3:0H-events_highpri]
+     35 ?        S      0:00 [kdevtmpfs]
+     36 ?        I<     0:00 [netns]
+     37 ?        I<     0:00 [inet_frag_wq]
+     38 ?        S      0:00 [kauditd]
+     42 ?        S      0:00 [khungtaskd]
+     43 ?        S      0:00 [oom_reaper]
+     44 ?        I<     0:00 [writeback]
+     45 ?        S      0:01 [kcompactd0]
+     46 ?        SN     0:00 [ksmd]
+     47 ?        SN     0:00 [khugepaged]
+     93 ?        I<     0:00 [kintegrityd]
+     94 ?        I<     0:00 [kblockd]
+     95 ?        I<     0:00 [blkcg_punt_bio]
+     96 ?        I<     0:00 [tpm_dev_wq]
+     97 ?        I<     0:00 [ata_sff]
+     98 ?        I<     0:00 [md]
+     99 ?        I<     0:00 [edac-poller]
+    100 ?        I<     0:00 [devfreq_wq]
+    101 ?        S      0:00 [watchdogd]
+    104 ?        I<     0:04 [kworker/1:1H-kblockd]
+    107 ?        S      0:00 [kswapd0]
+    108 ?        S      0:00 [ecryptfs-kthrea]
+    110 ?        I<     0:00 [kthrotld]
+    111 ?        S      0:00 [irq/24-pciehp]
+    112 ?        S      0:00 [irq/25-pciehp]
+    113 ?        S      0:00 [irq/26-pciehp]
+    114 ?        S      0:00 [irq/27-pciehp]
+    115 ?        S      0:00 [irq/28-pciehp]
+    116 ?        S      0:00 [irq/29-pciehp]
+    117 ?        S      0:00 [irq/30-pciehp]
+    118 ?        S      0:00 [irq/31-pciehp]
+    119 ?        S      0:00 [irq/32-pciehp]
+    120 ?        S      0:00 [irq/33-pciehp]
+    121 ?        S      0:00 [irq/34-pciehp]
+    122 ?        S      0:00 [irq/35-pciehp]
+    123 ?        S      0:00 [irq/36-pciehp]
+    124 ?        S      0:00 [irq/37-pciehp]
+    125 ?        S      0:00 [irq/38-pciehp]
+    126 ?        S      0:00 [irq/39-pciehp]
+    127 ?        S      0:00 [irq/40-pciehp]
+    128 ?        S      0:00 [irq/41-pciehp]
+    129 ?        S      0:00 [irq/42-pciehp]
+    130 ?        S      0:00 [irq/43-pciehp]
+    131 ?        S      0:00 [irq/44-pciehp]
+    132 ?        S      0:00 [irq/45-pciehp]
+    133 ?        S      0:00 [irq/46-pciehp]
+    134 ?        S      0:00 [irq/47-pciehp]
+    135 ?        S      0:00 [irq/48-pciehp]
+    136 ?        S      0:00 [irq/49-pciehp]
+    137 ?        S      0:00 [irq/50-pciehp]
+    138 ?        S      0:00 [irq/51-pciehp]
+    139 ?        S      0:00 [irq/52-pciehp]
+    140 ?        S      0:00 [irq/53-pciehp]
+    141 ?        S      0:00 [irq/54-pciehp]
+    142 ?        S      0:00 [irq/55-pciehp]
+    143 ?        I<     0:00 [acpi_thermal_pm]
+    144 ?        S      0:00 [scsi_eh_0]
+    145 ?        I<     0:00 [scsi_tmf_0]
+    146 ?        S      0:00 [scsi_eh_1]
+    147 ?        I<     0:00 [scsi_tmf_1]
+    149 ?        I<     0:00 [vfio-irqfd-clea]
+    150 ?        I<     0:00 [ipv6_addrconf]
+    151 ?        I<     0:04 [kworker/3:1H-kblockd]
+    161 ?        I<     0:00 [kstrp]
+    164 ?        I<     0:00 [zswap-shrink]
+    165 ?        I<     0:00 [kworker/u257:0]
+    170 ?        I<     0:00 [charger_manager]
+    219 ?        I<     0:06 [kworker/0:1H-kblockd]
+    220 ?        S      0:00 [scsi_eh_2]
+    221 ?        I<     0:00 [scsi_tmf_2]
+    222 ?        S      4:23 [scsi_eh_3]
+    223 ?        I<     0:00 [scsi_tmf_3]
+    224 ?        S      0:00 [scsi_eh_4]
+    225 ?        I<     0:00 [scsi_tmf_4]
+    226 ?        S      0:00 [scsi_eh_5]
+    227 ?        I<     0:00 [scsi_tmf_5]
+    228 ?        S      0:00 [scsi_eh_6]
+    229 ?        I<     0:00 [scsi_tmf_6]
+    230 ?        S      0:00 [scsi_eh_7]
+    231 ?        I<     0:00 [scsi_tmf_7]
+    232 ?        S      0:00 [scsi_eh_8]
+    233 ?        I<     0:00 [scsi_tmf_8]
+    234 ?        S      0:00 [scsi_eh_9]
+    235 ?        I<     0:00 [scsi_tmf_9]
+    236 ?        S      0:00 [scsi_eh_10]
+    237 ?        I<     0:00 [scsi_tmf_10]
+    238 ?        S      0:00 [scsi_eh_11]
+    239 ?        I<     0:00 [scsi_tmf_11]
+    240 ?        S      0:00 [scsi_eh_12]
+    241 ?        I<     0:00 [scsi_tmf_12]
+    242 ?        S      0:00 [scsi_eh_13]
+    243 ?        I<     0:00 [scsi_tmf_13]
+    244 ?        S      0:00 [scsi_eh_14]
+    245 ?        I<     0:00 [scsi_tmf_14]
+    246 ?        S      0:00 [scsi_eh_15]
+    247 ?        I<     0:00 [scsi_tmf_15]
+    248 ?        S      0:00 [scsi_eh_16]
+    249 ?        I<     0:00 [scsi_tmf_16]
+    250 ?        S      0:00 [scsi_eh_17]
+    251 ?        I<     0:00 [scsi_tmf_17]
+    252 ?        S      0:00 [scsi_eh_18]
+    253 ?        I<     0:00 [scsi_tmf_18]
+    254 ?        S      0:00 [scsi_eh_19]
+    255 ?        I<     0:00 [scsi_tmf_19]
+    256 ?        S      0:00 [scsi_eh_20]
+    257 ?        I<     0:00 [scsi_tmf_20]
+    258 ?        S      0:00 [scsi_eh_21]
+    259 ?        I<     0:00 [scsi_tmf_21]
+    260 ?        S      0:00 [scsi_eh_22]
+    261 ?        I<     0:00 [scsi_tmf_22]
+    262 ?        S      0:00 [scsi_eh_23]
+    263 ?        I<     0:00 [scsi_tmf_23]
+    264 ?        S      0:00 [scsi_eh_24]
+    265 ?        I<     0:00 [scsi_tmf_24]
+    266 ?        S      0:00 [scsi_eh_25]
+    267 ?        I<     0:00 [scsi_tmf_25]
+    268 ?        S      0:00 [scsi_eh_26]
+    269 ?        I<     0:00 [scsi_tmf_26]
+    270 ?        S      0:00 [scsi_eh_27]
+    271 ?        I<     0:00 [scsi_tmf_27]
+    272 ?        S      0:00 [scsi_eh_28]
+    273 ?        I<     0:00 [scsi_tmf_28]
+    274 ?        S      0:00 [scsi_eh_29]
+    275 ?        I<     0:00 [scsi_tmf_29]
+    276 ?        S      0:00 [scsi_eh_30]
+    277 ?        I<     0:00 [scsi_tmf_30]
+    278 ?        S      0:00 [scsi_eh_31]
+    279 ?        I<     0:00 [scsi_tmf_31]
+    284 ?        I<     0:00 [mpt_poll_0]
+    289 ?        I<     0:00 [mpt/0]
+    309 ?        I<     0:34 [kworker/2:1H-kblockd]
+    311 ?        S      0:00 [scsi_eh_32]
+    312 ?        I<     0:00 [scsi_tmf_32]
+    336 ?        S      0:01 [jbd2/sda5-8]
+    337 ?        I<     0:00 [ext4-rsv-conver]
+    376 ?        S<s    0:02 /lib/systemd/systemd-journald
+    404 ?        S<     0:00 [loop0]
+    407 ?        Ss     0:38 /lib/systemd/systemd-udevd
+    408 ?        S<     0:00 [loop1]
+    409 ?        S<     0:00 [loop2]
+    411 ?        S<     0:00 [loop3]
+    432 ?        S<     0:00 [loop4]
+    451 ?        S      0:03 [irq/16-vmwgfx]
+    452 ?        I<     0:00 [ttm_swap]
+    453 ?        S      0:00 [card0-crtc0]
+    455 ?        S      0:00 [card0-crtc1]
+    456 ?        S      0:00 [card0-crtc2]
+    459 ?        S      0:00 [card0-crtc3]
+    460 ?        S      0:00 [card0-crtc4]
+    462 ?        S      0:00 [card0-crtc5]
+    464 ?        S      0:00 [card0-crtc6]
+    465 ?        S      0:00 [card0-crtc7]
+    482 ?        I<     0:00 [cryptd]
+    699 ?        Ss     0:01 /lib/systemd/systemd-resolved
+    704 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+    836 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+    837 ?        Ss     0:01 /usr/sbin/acpid
+    840 ?        Ss     0:01 avahi-daemon: running [ubuntu.local]
+    841 ?        Ss     0:00 /usr/sbin/cron -f
+    845 ?        Ss     5:36 /usr/bin/dbus-daemon --system --address=systemd: --
+    848 ?        Ssl    0:08 /usr/sbin/NetworkManager --no-daemon
+    853 ?        Ssl    0:01 /usr/sbin/irqbalance --foreground
+    861 ?        Ss     0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run
+    868 ?        Ssl    0:04 /usr/lib/policykit-1/polkitd --no-debug
+    871 ?        Ssl    0:00 /usr/sbin/rsyslogd -n -iNONE
+    874 ?        Ssl    0:00 /usr/libexec/switcheroo-control
+    875 ?        Ss     2:39 /lib/systemd/systemd-logind
+    876 ?        Ssl    4:36 /usr/lib/udisks2/udisksd
+    878 ?        Ss     0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    885 ?        S      0:00 avahi-daemon: chroot helper
+    927 ?        Ssl    0:00 /usr/bin/python3 /usr/share/unattended-upgrades/una
+    933 ?        Ssl    0:00 /usr/sbin/ModemManager --filter-policy=strict
+   1018 ?        Ssl    0:00 /usr/bin/whoopsie -f
+   1022 ?        Ss     0:01 /usr/sbin/kerneloops --test
+   1027 ?        Ss     0:01 /usr/sbin/kerneloops
+   1843 ?        S      0:00 /lib/systemd/systemd-udevd
+   1844 ?        S      0:00 /lib/systemd/systemd-udevd
+   1845 ?        S      0:00 /lib/systemd/systemd-udevd
+   1846 ?        S      0:00 /lib/systemd/systemd-udevd
+   1847 ?        S      0:00 /lib/systemd/systemd-udevd
+   1848 ?        S      0:00 /lib/systemd/systemd-udevd
+   1849 ?        S      0:00 /lib/systemd/systemd-udevd
+   1850 ?        S      0:00 /lib/systemd/systemd-udevd
+   1851 ?        S      0:00 /lib/systemd/systemd-udevd
+   1852 ?        S      0:00 /lib/systemd/systemd-udevd
+   1853 ?        S      0:00 /lib/systemd/systemd-udevd
+   1854 ?        S      0:00 /lib/systemd/systemd-udevd
+   1855 ?        S      0:00 /lib/systemd/systemd-udevd
+   1856 ?        S      0:00 /lib/systemd/systemd-udevd
+   1857 ?        S      0:00 /lib/systemd/systemd-udevd
+   1858 ?        S      0:00 /lib/systemd/systemd-udevd
+   1859 ?        S      0:00 /lib/systemd/systemd-udevd
+   1868 ?        S      0:00 /lib/systemd/systemd-udevd
+   1869 ?        S      0:00 /lib/systemd/systemd-udevd
+   1870 ?        S      0:00 /lib/systemd/systemd-udevd
+   1871 ?        S      0:00 /lib/systemd/systemd-udevd
+   1872 ?        S     11:11 /lib/systemd/systemd-udevd
+   1873 ?        S      0:00 /lib/systemd/systemd-udevd
+   1874 ?        S      0:00 /lib/systemd/systemd-udevd
+   1982 ?        Ssl    0:34 /usr/bin/vmtoolsd
+   2100 ?        Ss     0:00 /usr/bin/VGAuthService
+   2932 ?        Ssl    0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype
+   3556 ?        Ssl    0:00 /usr/sbin/gdm3
+   3585 ?        SNsl   0:00 /usr/libexec/rtkit-daemon
+   3693 ?        Ssl    0:00 /usr/lib/upower/upowerd
+   3968 ?        Ssl    0:00 /usr/libexec/colord
+   4078 ?        Sl     0:00 gdm-session-worker [pam/gdm-password]
+   4116 ?        Ss     0:47 /lib/systemd/systemd --user
+   4117 ?        S      0:00 (sd-pam)
+   4126 ?        Ssl    0:11 /usr/bin/pulseaudio --daemonize=no --log-target=jou
+   4128 ?        SNsl   0:00 /usr/libexec/tracker-miner-fs
+   4131 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   4136 ?        Ss     0:03 /usr/bin/dbus-daemon --session --address=systemd: -
+   4139 ?        Ssl    0:00 /usr/libexec/gvfsd
+   4144 ?        Sl     0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o b
+   4163 ?        Ssl    0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   4169 ?        Ssl    0:01 /usr/libexec/gvfs-afc-volume-monitor
+   4176 ?        Ssl    0:00 /usr/libexec/gvfs-goa-volume-monitor
+   4180 ?        Sl     0:00 /usr/libexec/goa-daemon
+   4191 ?        Sl     0:00 /usr/libexec/goa-identity-service
+   4198 ?        Ssl    0:00 /usr/libexec/gvfs-mtp-volume-monitor
+   4203 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+   4204 ?        Ssl    0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   4209 tty2     Rl+    1:49 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user
+   4259 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary --systemd --syste
+   4328 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHE
+   4351 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   4356 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defau
+   4368 ?        Ssl    0:00 /usr/libexec/gnome-session-ctl --monitor
+   4388 ?        Sl     0:00 /usr/libexec/dconf-service
+   4392 ?        Ssl    0:00 /usr/libexec/gnome-session-binary --systemd-service
+   4408 ?        Rsl    3:27 /usr/bin/gnome-shell
+   4439 ?        Sl     0:01 ibus-daemon --panel disable --xim
+   4446 ?        Sl     0:00 /usr/libexec/ibus-memconf
+   4447 ?        Sl     0:01 /usr/libexec/ibus-extension-gtk3
+   4449 ?        Sl     0:00 /usr/libexec/ibus-x11 --kill-daemon
+   4451 ?        Sl     0:00 /usr/libexec/ibus-portal
+   4464 ?        Sl     0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   4468 ?        Sl     0:00 /usr/libexec/gnome-shell-calendar-server
+   4469 ?        Ssl    0:00 /usr/libexec/xdg-permission-store
+   4479 ?        Ssl    0:00 /usr/libexec/evolution-source-registry
+   4490 ?        Ssl    0:00 /usr/libexec/evolution-calendar-factory
+   4503 ?        Ssl    0:00 /usr/libexec/evolution-addressbook-factory
+   4504 ?        Ssl    0:00 /usr/libexec/gvfsd-metadata
+   4522 ?        Sl     0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell
+   4530 ?        Sl     0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gv
+   4541 ?        Ssl    0:00 /usr/libexec/gsd-a11y-settings
+   4542 ?        Ssl    0:00 /usr/libexec/gsd-color
+   4544 ?        Ssl    0:00 /usr/libexec/gsd-datetime
+   4545 ?        Ssl    0:01 /usr/libexec/gsd-housekeeping
+   4547 ?        Ssl    0:00 /usr/libexec/gsd-keyboard
+   4548 ?        Ssl    0:00 /usr/libexec/gsd-media-keys
+   4551 ?        Ssl    0:00 /usr/libexec/gsd-power
+   4552 ?        Ssl    0:00 /usr/libexec/gsd-print-notifications
+   4553 ?        Ssl    0:00 /usr/libexec/gsd-rfkill
+   4555 ?        Ssl    0:00 /usr/libexec/gsd-screensaver-proxy
+   4556 ?        Ssl    0:00 /usr/libexec/gsd-sharing
+   4557 ?        Ssl    0:00 /usr/libexec/gsd-smartcard
+   4558 ?        Ssl    0:00 /usr/libexec/gsd-sound
+   4567 ?        Ssl    0:00 /usr/libexec/gsd-usb-protection
+   4568 ?        Ssl    0:00 /usr/libexec/gsd-wacom
+   4570 ?        Ssl    0:00 /usr/libexec/gsd-wwan
+   4574 ?        Ssl    0:00 /usr/libexec/gsd-xsettings
+   4580 ?        Sl     0:00 /usr/libexec/evolution-data-server/evolution-alarm-
+   4600 ?        Sl     0:00 /usr/libexec/gsd-disk-utility-notify
+   4613 ?        Sl     0:37 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+   4641 ?        Sl     0:00 /usr/libexec/gsd-printer
+   4697 ?        Sl     0:00 /usr/libexec/ibus-engine-simple
+   5137 ?        Sl     0:00 /usr/bin/gnome-calendar --gapplication-service
+   5139 ?        SLl    0:00 /usr/bin/seahorse --gapplication-service
+   5757 ?        Sl     0:01 update-notifier
+   9349 ?        S<     0:00 [loop5]
+   9387 ?        Ssl    1:48 /usr/lib/snapd/snapd
+  16738 ?        S      0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ss
+  17357 ?        Ss     0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 star
+  61101 ?        Ss     0:00 /usr/sbin/cupsd -l
+  61104 ?        Ssl    0:00 /usr/sbin/cups-browsed
+ 173829 ?        Sl     0:00 /usr/libexec/gvfsd-recent --spawner :1.3 /org/gtk/g
+ 174007 ?        Sl     0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/
+ 174407 ?        Sl     0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gv
+ 193048 ?        I      0:08 [kworker/u256:3+events_unbound]
+ 193183 ?        I      0:00 [kworker/2:2-rcu_par_gp]
+ 199054 ?        I      0:00 [kworker/0:2-rcu_gp]
+ 199298 ?        I      0:01 [kworker/1:0-cgroup_destroy]
+ 201316 ?        Rsl    0:04 /usr/libexec/gnome-terminal-server
+ 201440 ?        I      0:00 [kworker/2:1-events]
+ 201664 ?        I      0:00 [kworker/0:1-rcu_par_gp]
+ 203030 pts/1    Ss     0:00 bash
+ 203495 ?        I      0:00 [kworker/3:2-events]
+ 203937 ?        I      0:00 [kworker/1:2-rcu_par_gp]
+ 206860 ?        R      0:01 [kworker/u256:1-events_unbound]
+ 209784 ?        I      0:01 [kworker/u256:2-events_unbound]
+ 210373 ?        I      0:00 [kworker/3:0-events]
+ 210864 ?        I      0:00 [kworker/0:0-events]
+ 210865 ?        I      0:00 [kworker/1:1-events]
+ 211118 ?        I      0:00 [kworker/2:0-events]
+ 212028 pts/1    R+     0:00 script -ttime_log timelog7ilyushchenko12u task7ilyu
+ 212029 pts/0    Ss     0:00 bash -i
+ 212140 ?        I      0:00 [kworker/u256:0-events_unbound]
+ 213098 ?        D      0:00 /lib/udev/cdrom_id --eject-media /dev/sr1
+ 213099 pts/0    R+     0:00 ps ax
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps a
+    PID TTY      STAT   TIME COMMAND
+   4203 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_
+   4209 tty2     Sl+    1:49 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user
+   4259 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary --systemd --syste
+ 203030 pts/1    Ss     0:00 bash
+ 212028 pts/1    S+     0:00 script -ttime_log timelog7ilyushchenko12u task7ilyu
+ 212029 pts/0    Ss     0:00 bash -i
+ 213154 pts/0    R+     0:00 ps a
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps -a
+    PID TTY          TIME CMD
+   4209 tty2     00:01:49 Xorg
+   4259 tty2     00:00:00 gnome-session-b
+ 212028 pts/1    00:00:00 script
+ 213164 pts/0    00:00:00 ps
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ps -e > ps.log
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ls
+build.gradle       ps.log                     timelog3.3ilyushchenko12u
+[0m[01;34mgradle[0m             settings.gradle            timelog4ilyushchenko12u
+gradle.properties  [01;34msrc[0m                        timelog5ilyushchenko12r
+gradlew            time_log                   timelog6ilyushchenko12u
+gradlew.bat        timelog3.3ilyushchenko12r  timelog7ilyushchenko12u
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ touch ps.log
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ cat[K[K[Kvim [K[K ps.log 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"ps.log" 328 lines, 12713 characters[1;5HPID TTY[10CTIME CMD[2;7H1 ?[8C00:02:11 systemd[3;7H2 ?[8C00:00:00 kthreadd[4;7H3 ?[8C00:00:00 rcu_gp[5;7H4 ?[8C00:00:00 rcu_par_gp[6;7H6 ?[8C00:00:00 kworker/0:0H-events_highpri[7;7H9 ?[8C00:00:00 mm_percpu_wq[8;6H10 ?[8C00:00:00 rcu_tasks_rude_[9;6H11 ?[8C00:00:00 rcu_tasks_trace[10;6H12 ?[8C00:00:02 ksoftirqd/0[11;6H13 ?[8C00:01:53 rcu_sched[12;6H14 ?[8C00:00:00 migration/0[13;6H15 ?[8C00:00:00 idle_inject/0[14;6H16 ?[8C00:00:00 cpuhp/0[15;6H17 ?[8C00:00:00 cpuhp/1[16;6H18 ?[8C00:00:00 idle_inject/1[17;6H19 ?[8C00:00:00 migration/1[18;6H20 ?[8C00:00:02 ksoftirqd/1[19;6H22 ?[8C00:00:00 kworker/1:0H-events_highpri[20;6H23 ?[8C00:00:00 cpuhp/2[21;6H24 ?[8C00:00:00 idle_inject/2[22;6H25 ?[8C00:00:00 migration/2[23;6H26 ?[8C00:00:01 ksoftirqd/2[1;5H[?25h
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    [?25l[1;23r[23;1H
+[1;24r[23;6H28 ?[8C00:00:00 kworker/2:0H-kblockd[24;1H[K[23;5H[?25h[?25l[1;23r[23;1H
+[1;24r[23;6H29 ?[8C00:00:00 cpuhp/3    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H30 ?[8C00:00:00 idle_inject/3    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H31 ?[8C00:00:00 migration/3    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H32 ?[8C00:00:02 ksoftirqd/3    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H34 ?[8C00:00:00 kworker/3:0H-events_highpri    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H35 ?[8C00:00:00 kdevtmpfs    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H36 ?[8C00:00:00 netns    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H37 ?[8C00:00:00 inet_frag_wq    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H38 ?[8C00:00:00 kauditd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H42 ?[8C00:00:00 khungtaskd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H43 ?[8C00:00:00 oom_reaper    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H44 ?[8C00:00:00 writeback    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H45 ?[8C00:00:01 kcompactd0    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H46 ?[8C00:00:00 ksmd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H47 ?[8C00:00:00 khugepaged    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H93 ?[8C00:00:00 kintegrityd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H94 ?[8C00:00:00 kblockd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H95 ?[8C00:00:00 blkcg_punt_bio    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H96 ?[8C00:00:00 tpm_dev_wq    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H97 ?[8C00:00:00 ata_sff    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H98 ?[8C00:00:00 md    [?25h[?25l[1;23r[23;1H
+[1;24r[23;6H99 ?[8C00:00:00 edac-poller    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H100 ?[8C00:00:00 devfreq_wq    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H101 ?[8C00:00:00 watchdogd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H104 ?[8C00:00:04 kworker/1:1H-kblockd    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H107 ?[8C00:00:00 kswapd0    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H108 ?[8C00:00:00 ecryptfs-kthrea    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H110 ?[8C00:00:00 kthrotld    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H111 ?[8C00:00:00 irq/24-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H112 ?[8C00:00:00 irq/25-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H113 ?[8C00:00:00 irq/26-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H114 ?[8C00:00:00 irq/27-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H115 ?[8C00:00:00 irq/28-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H116 ?[8C00:00:00 irq/29-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H117 ?[8C00:00:00 irq/30-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H118 ?[8C00:00:00 irq/31-pciehp    [?25h[?25l[1;23r[23;1H
+[1;24r[23;5H119 ?[8C00:00:00 irq/32-pciehp    [?25h[?25l
+:[?2004h[?25hwq[?25l[?2004l"ps.log" 328 lines, 12713 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ pd[Kidof top
+214137
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ifconfig
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.139.131  netmask 255.255.255.0  broadcast 192.168.139.255
+        inet6 fe80::477f:39bf:1fe3:a9b0  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:b3:6f:bd  txqueuelen 1000  (Ethernet)
+        RX packets 118382  bytes 164797000 (164.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 56553  bytes 3750321 (3.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1632  bytes 157032 (157.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1632  bytes 157032 (157.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ^C
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ifconi[Kfig
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.139.131  netmask 255.255.255.0  broadcast 192.168.139.255
+        inet6 fe80::477f:39bf:1fe3:a9b0  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:b3:6f:bd  txqueuelen 1000  (Ethernet)
+        RX packets 125111  bytes 174436970 (174.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 60011  bytes 4171114 (4.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1715  bytes 164785 (164.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1715  bytes 164785 (164.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser[K[K[K[K[Kls
+build.gradle       ps.log                     timelog3.3ilyushchenko12u
+[0m[01;34mgradle[0m             settings.gradle            timelog4ilyushchenko12u
+gradle.properties  [01;34msrc[0m                        timelog5ilyushchenko12r
+gradlew            time_log                   timelog6ilyushchenko12u
+gradlew.bat        timelog3.3ilyushchenko12r  timelog7ilyushchenko12u
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ touch test[K[K,p[K[Kmp+[K_test.txt
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ls
+build.gradle       settings.gradle            timelog4ilyushchenko12u
+[0m[01;34mgradle[0m             [01;34msrc[0m                        timelog5ilyushchenko12r
+gradle.properties  temp_test.txt              timelog6ilyushchenko12u
+gradlew            time_log                   timelog7ilyushchenko12u
+gradlew.bat        timelog3.3ilyushchenko12r
+ps.log             timelog3.3ilyushchenko12u
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ caa[K[K[Kfuser /
+/:                    4116rc  4126rc  4128r  4136r  4139r  4144r  4163r  4169r  4176r  4180r  4191r  4198r  4203r  4204r  4209r  4259r  4351r  4356r  4368r  4388r  4392r  4408r  4439r  4446r  4447r  4449r  4451r  4464r  4468r  4469r  4479r  4490r  4503r  4504r  4522r  4530r  4541r  4542r  4544r  4545r  4547r  4548r  4551r  4552r  4553r  4555r  4556r  4557r  4558r  4567r  4568r  4570r  4574r  4580r  4600r  4613r  4641r  4697r  5137r  5139r  5757r 173829r 174007r 174407r 201316rc 203030r 212028r 212029r 214648r 214675r 214877r 217704r
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser /[K/[K.
+/home/ilyushchenko12/ilyushchenko/Worker-Service: 203030c 212028c 212029c
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser .[K-v
+No process specification given
+Usage: fuser [-fIMuvw] [-a|-s] [-4|-6] [-c|-m|-n SPACE]
+             [-k [-i] [-SIGNAL]] NAME...
+       fuser -l
+       fuser -V
+Show which processes use the named files, sockets, or filesystems.
+
+  -a,--all              display unused files too
+  -i,--interactive      ask before killing (ignored without -k)
+  -I,--inode            use always inodes to compare files
+  -k,--kill             kill processes accessing the named file
+  -l,--list-signals     list available signal names
+  -m,--mount            show all processes using the named filesystems or
+                        block device
+  -M,--ismountpoint     fulfill request only if NAME is a mount point
+  -n,--namespace SPACE  search in this name space (file, udp, or tcp)
+  -s,--silent           silent operation
+  -SIGNAL               send this signal instead of SIGKILL
+  -u,--user             display user IDs
+  -v,--verbose          verbose output
+  -w,--writeonly        kill only processes with write access
+  -V,--version          display version information
+  -4,--ipv4             search IPv4 sockets only
+  -6,--ipv6             search IPv6 sockets only
+  -                     reset options
+
+  udp/tcp names: [local_port][,[rmt_host][,[rmt_port]]]
+
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v[C[C[C .
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service:
+                     ilyushchenko12  203030 ..c.. bash
+                     ilyushchenko12  212028 ..c.. script
+                     ilyushchenko12  212029 ..c.. bash
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ ls
+build.gradle       settings.gradle            timelog4ilyushchenko12u
+[0m[01;34mgradle[0m             [01;34msrc[0m                        timelog5ilyushchenko12r
+gradle.properties  temp_test.txt              timelog6ilyushchenko12u
+gradlew            time_log                   timelog7ilyushchenko12u
+gradlew.bat        timelog3.3ilyushchenko12r
+ps.log             timelog3.3ilyushchenko12u
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -o[Kv -,[Km time_log 
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service/time_log:
+                     root     kernel swap  /swapfile
+                     root     kernel mount /
+                     ilyushchenko12   4116 .rce. systemd
+                     ilyushchenko12   4126 Frce. pulseaudio
+                     ilyushchenko12   4128 Frce. tracker-miner-f
+                     ilyushchenko12   4136 .rce. dbus-daemon
+                     ilyushchenko12   4139 .rce. gvfsd
+                     ilyushchenko12   4144 .rce. gvfsd-fuse
+                     ilyushchenko12   4163 .rce. gvfs-udisks2-vo
+                     ilyushchenko12   4169 .rce. gvfs-afc-volume
+                     ilyushchenko12   4176 .rce. gvfs-goa-volume
+                     ilyushchenko12   4180 .rce. goa-daemon
+                     ilyushchenko12   4191 .rce. goa-identity-se
+                     ilyushchenko12   4198 .rce. gvfs-mtp-volume
+                     ilyushchenko12   4203 .rce. gdm-x-session
+                     ilyushchenko12   4204 .rce. gvfs-gphoto2-vo
+                     ilyushchenko12   4209 Frce. Xorg
+                     ilyushchenko12   4259 .rce. gnome-session-b
+                     ilyushchenko12   4351 .rce. at-spi-bus-laun
+                     ilyushchenko12   4356 .rce. dbus-daemon
+                     ilyushchenko12   4368 .rce. gnome-session-c
+                     ilyushchenko12   4388 .rce. dconf-service
+                     ilyushchenko12   4392 Frce. gnome-session-b
+                     ilyushchenko12   4408 Frce. gnome-shell
+                     ilyushchenko12   4439 .rce. ibus-daemon
+                     ilyushchenko12   4446 .rce. ibus-memconf
+                     ilyushchenko12   4447 .rce. ibus-extension-
+                     ilyushchenko12   4449 .rce. ibus-x11
+                     ilyushchenko12   4451 .rce. ibus-portal
+                     ilyushchenko12   4464 .rce. at-spi2-registr
+                     ilyushchenko12   4468 .rce. gnome-shell-cal
+                     ilyushchenko12   4469 .rce. xdg-permission-
+                     ilyushchenko12   4479 .rce. evolution-sourc
+                     ilyushchenko12   4490 frce. evolution-calen
+                     ilyushchenko12   4503 Frce. evolution-addre
+                     ilyushchenko12   4504 Frce. gvfsd-metadata
+                     ilyushchenko12   4522 .rce. gjs
+                     ilyushchenko12   4530 .rce. gvfsd-trash
+                     ilyushchenko12   4541 .rce. gsd-a11y-settin
+                     ilyushchenko12   4542 .rce. gsd-color
+                     ilyushchenko12   4544 .rce. gsd-datetime
+                     ilyushchenko12   4545 .rce. gsd-housekeepin
+                     ilyushchenko12   4547 .rce. gsd-keyboard
+                     ilyushchenko12   4548 Frce. gsd-media-keys
+                     ilyushchenko12   4551 .rce. gsd-power
+                     ilyushchenko12   4552 .rce. gsd-print-notif
+                     ilyushchenko12   4553 .rce. gsd-rfkill
+                     ilyushchenko12   4555 .rce. gsd-screensaver
+                     ilyushchenko12   4556 .rce. gsd-sharing
+                     ilyushchenko12   4557 .rce. gsd-smartcard
+                     ilyushchenko12   4558 .rce. gsd-sound
+                     ilyushchenko12   4567 .rce. gsd-usb-protect
+                     ilyushchenko12   4568 .rce. gsd-wacom
+                     ilyushchenko12   4570 .rce. gsd-wwan
+                     ilyushchenko12   4574 .rce. gsd-xsettings
+                     ilyushchenko12   4580 .rce. evolution-alarm
+                     ilyushchenko12   4600 .rce. gsd-disk-utilit
+                     ilyushchenko12   4613 .rce. vmtoolsd
+                     ilyushchenko12   4641 .rce. gsd-printer
+                     ilyushchenko12   4697 .rce. ibus-engine-sim
+                     ilyushchenko12   5137 .rce. gnome-calendar
+                     ilyushchenko12   5139 .rce. seahorse
+                     ilyushchenko12   5757 .rce. update-notifier
+                     ilyushchenko12  173829 frce. gvfsd-recent
+                     ilyushchenko12  174007 .rce. gvfsd-network
+                     ilyushchenko12  174407 .rce. gvfsd-dnssd
+                     ilyushchenko12  201316 Frce. gnome-terminal-
+                     ilyushchenko12  203030 .rce. bash
+                     ilyushchenko12  212028 Frce. script
+                     ilyushchenko12  212029 .rce. bash
+                     ilyushchenko12  214648 .rce. bash
+                     ilyushchenko12  214675 .rce. top
+                     ilyushchenko12  214877 .rce. bash
+                     ilyushchenko12  217704 .rce. bash
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v -m time_log [K[K[K[K[Kemp_test.txt 
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service/temp_test.txt:
+                     root     kernel swap  /swapfile
+                     root     kernel mount /
+                     ilyushchenko12   4116 .rce. systemd
+                     ilyushchenko12   4126 Frce. pulseaudio
+                     ilyushchenko12   4128 Frce. tracker-miner-f
+                     ilyushchenko12   4136 .rce. dbus-daemon
+                     ilyushchenko12   4139 .rce. gvfsd
+                     ilyushchenko12   4144 .rce. gvfsd-fuse
+                     ilyushchenko12   4163 .rce. gvfs-udisks2-vo
+                     ilyushchenko12   4169 .rce. gvfs-afc-volume
+                     ilyushchenko12   4176 .rce. gvfs-goa-volume
+                     ilyushchenko12   4180 .rce. goa-daemon
+                     ilyushchenko12   4191 .rce. goa-identity-se
+                     ilyushchenko12   4198 .rce. gvfs-mtp-volume
+                     ilyushchenko12   4203 .rce. gdm-x-session
+                     ilyushchenko12   4204 .rce. gvfs-gphoto2-vo
+                     ilyushchenko12   4209 Frce. Xorg
+                     ilyushchenko12   4259 .rce. gnome-session-b
+                     ilyushchenko12   4351 .rce. at-spi-bus-laun
+                     ilyushchenko12   4356 .rce. dbus-daemon
+                     ilyushchenko12   4368 .rce. gnome-session-c
+                     ilyushchenko12   4388 .rce. dconf-service
+                     ilyushchenko12   4392 Frce. gnome-session-b
+                     ilyushchenko12   4408 Frce. gnome-shell
+                     ilyushchenko12   4439 .rce. ibus-daemon
+                     ilyushchenko12   4446 .rce. ibus-memconf
+                     ilyushchenko12   4447 .rce. ibus-extension-
+                     ilyushchenko12   4449 .rce. ibus-x11
+                     ilyushchenko12   4451 .rce. ibus-portal
+                     ilyushchenko12   4464 .rce. at-spi2-registr
+                     ilyushchenko12   4468 .rce. gnome-shell-cal
+                     ilyushchenko12   4469 .rce. xdg-permission-
+                     ilyushchenko12   4479 .rce. evolution-sourc
+                     ilyushchenko12   4490 frce. evolution-calen
+                     ilyushchenko12   4503 Frce. evolution-addre
+                     ilyushchenko12   4504 Frce. gvfsd-metadata
+                     ilyushchenko12   4522 .rce. gjs
+                     ilyushchenko12   4530 .rce. gvfsd-trash
+                     ilyushchenko12   4541 .rce. gsd-a11y-settin
+                     ilyushchenko12   4542 .rce. gsd-color
+                     ilyushchenko12   4544 .rce. gsd-datetime
+                     ilyushchenko12   4545 .rce. gsd-housekeepin
+                     ilyushchenko12   4547 .rce. gsd-keyboard
+                     ilyushchenko12   4548 Frce. gsd-media-keys
+                     ilyushchenko12   4551 .rce. gsd-power
+                     ilyushchenko12   4552 .rce. gsd-print-notif
+                     ilyushchenko12   4553 .rce. gsd-rfkill
+                     ilyushchenko12   4555 .rce. gsd-screensaver
+                     ilyushchenko12   4556 .rce. gsd-sharing
+                     ilyushchenko12   4557 .rce. gsd-smartcard
+                     ilyushchenko12   4558 .rce. gsd-sound
+                     ilyushchenko12   4567 .rce. gsd-usb-protect
+                     ilyushchenko12   4568 .rce. gsd-wacom
+                     ilyushchenko12   4570 .rce. gsd-wwan
+                     ilyushchenko12   4574 .rce. gsd-xsettings
+                     ilyushchenko12   4580 .rce. evolution-alarm
+                     ilyushchenko12   4600 .rce. gsd-disk-utilit
+                     ilyushchenko12   4613 .rce. vmtoolsd
+                     ilyushchenko12   4641 .rce. gsd-printer
+                     ilyushchenko12   4697 .rce. ibus-engine-sim
+                     ilyushchenko12   5137 .rce. gnome-calendar
+                     ilyushchenko12   5139 .rce. seahorse
+                     ilyushchenko12   5757 .rce. update-notifier
+                     ilyushchenko12  173829 frce. gvfsd-recent
+                     ilyushchenko12  174007 .rce. gvfsd-network
+                     ilyushchenko12  174407 .rce. gvfsd-dnssd
+                     ilyushchenko12  201316 Frce. gnome-terminal-
+                     ilyushchenko12  203030 .rce. bash
+                     ilyushchenko12  212028 Frce. script
+                     ilyushchenko12  212029 .rce. bash
+                     ilyushchenko12  214648 .rce. bash
+                     ilyushchenko12  214675 .rce. top
+                     ilyushchenko12  214877 .rce. bash
+                     ilyushchenko12  217704 .rce. bash
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v -m temp_test.txt [5Pime_log[C
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service/time_log:
+                     root     kernel swap  /swapfile
+                     root     kernel mount /
+                     ilyushchenko12   4116 .rce. systemd
+                     ilyushchenko12   4126 Frce. pulseaudio
+                     ilyushchenko12   4128 Frce. tracker-miner-f
+                     ilyushchenko12   4136 .rce. dbus-daemon
+                     ilyushchenko12   4139 .rce. gvfsd
+                     ilyushchenko12   4144 .rce. gvfsd-fuse
+                     ilyushchenko12   4163 .rce. gvfs-udisks2-vo
+                     ilyushchenko12   4169 .rce. gvfs-afc-volume
+                     ilyushchenko12   4176 .rce. gvfs-goa-volume
+                     ilyushchenko12   4180 .rce. goa-daemon
+                     ilyushchenko12   4191 .rce. goa-identity-se
+                     ilyushchenko12   4198 .rce. gvfs-mtp-volume
+                     ilyushchenko12   4203 .rce. gdm-x-session
+                     ilyushchenko12   4204 .rce. gvfs-gphoto2-vo
+                     ilyushchenko12   4209 Frce. Xorg
+                     ilyushchenko12   4259 .rce. gnome-session-b
+                     ilyushchenko12   4351 .rce. at-spi-bus-laun
+                     ilyushchenko12   4356 .rce. dbus-daemon
+                     ilyushchenko12   4368 .rce. gnome-session-c
+                     ilyushchenko12   4388 .rce. dconf-service
+                     ilyushchenko12   4392 Frce. gnome-session-b
+                     ilyushchenko12   4408 Frce. gnome-shell
+                     ilyushchenko12   4439 .rce. ibus-daemon
+                     ilyushchenko12   4446 .rce. ibus-memconf
+                     ilyushchenko12   4447 .rce. ibus-extension-
+                     ilyushchenko12   4449 .rce. ibus-x11
+                     ilyushchenko12   4451 .rce. ibus-portal
+                     ilyushchenko12   4464 .rce. at-spi2-registr
+                     ilyushchenko12   4468 .rce. gnome-shell-cal
+                     ilyushchenko12   4469 .rce. xdg-permission-
+                     ilyushchenko12   4479 .rce. evolution-sourc
+                     ilyushchenko12   4490 frce. evolution-calen
+                     ilyushchenko12   4503 Frce. evolution-addre
+                     ilyushchenko12   4504 Frce. gvfsd-metadata
+                     ilyushchenko12   4522 .rce. gjs
+                     ilyushchenko12   4530 .rce. gvfsd-trash
+                     ilyushchenko12   4541 .rce. gsd-a11y-settin
+                     ilyushchenko12   4542 .rce. gsd-color
+                     ilyushchenko12   4544 .rce. gsd-datetime
+                     ilyushchenko12   4545 .rce. gsd-housekeepin
+                     ilyushchenko12   4547 .rce. gsd-keyboard
+                     ilyushchenko12   4548 Frce. gsd-media-keys
+                     ilyushchenko12   4551 .rce. gsd-power
+                     ilyushchenko12   4552 .rce. gsd-print-notif
+                     ilyushchenko12   4553 .rce. gsd-rfkill
+                     ilyushchenko12   4555 .rce. gsd-screensaver
+                     ilyushchenko12   4556 .rce. gsd-sharing
+                     ilyushchenko12   4557 .rce. gsd-smartcard
+                     ilyushchenko12   4558 .rce. gsd-sound
+                     ilyushchenko12   4567 .rce. gsd-usb-protect
+                     ilyushchenko12   4568 .rce. gsd-wacom
+                     ilyushchenko12   4570 .rce. gsd-wwan
+                     ilyushchenko12   4574 .rce. gsd-xsettings
+                     ilyushchenko12   4580 .rce. evolution-alarm
+                     ilyushchenko12   4600 .rce. gsd-disk-utilit
+                     ilyushchenko12   4613 .rce. vmtoolsd
+                     ilyushchenko12   4641 .rce. gsd-printer
+                     ilyushchenko12   4697 .rce. ibus-engine-sim
+                     ilyushchenko12   5137 .rce. gnome-calendar
+                     ilyushchenko12   5139 .rce. seahorse
+                     ilyushchenko12   5757 .rce. update-notifier
+                     ilyushchenko12  173829 frce. gvfsd-recent
+                     ilyushchenko12  174007 .rce. gvfsd-network
+                     ilyushchenko12  174407 .rce. gvfsd-dnssd
+                     ilyushchenko12  201316 Frce. gnome-terminal-
+                     ilyushchenko12  203030 .rce. bash
+                     ilyushchenko12  212028 Frce. script
+                     ilyushchenko12  212029 .rce. bash
+                     ilyushchenko12  214648 .rce. bash
+                     ilyushchenko12  214675 .rce. top
+                     ilyushchenko12  214877 .rce. bash
+                     ilyushchenko12  217704 .rce. bash
+                     ilyushchenko12  222418 Frce. vi
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v -m time_log [K[K[K[K[K[K[K[Kemp_test.txt 
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service/temp_test.txt:
+                     root     kernel swap  /swapfile
+                     root     kernel mount /
+                     ilyushchenko12   4116 .rce. systemd
+                     ilyushchenko12   4126 Frce. pulseaudio
+                     ilyushchenko12   4128 Frce. tracker-miner-f
+                     ilyushchenko12   4136 .rce. dbus-daemon
+                     ilyushchenko12   4139 .rce. gvfsd
+                     ilyushchenko12   4144 .rce. gvfsd-fuse
+                     ilyushchenko12   4163 .rce. gvfs-udisks2-vo
+                     ilyushchenko12   4169 .rce. gvfs-afc-volume
+                     ilyushchenko12   4176 .rce. gvfs-goa-volume
+                     ilyushchenko12   4180 .rce. goa-daemon
+                     ilyushchenko12   4191 .rce. goa-identity-se
+                     ilyushchenko12   4198 .rce. gvfs-mtp-volume
+                     ilyushchenko12   4203 .rce. gdm-x-session
+                     ilyushchenko12   4204 .rce. gvfs-gphoto2-vo
+                     ilyushchenko12   4209 Frce. Xorg
+                     ilyushchenko12   4259 .rce. gnome-session-b
+                     ilyushchenko12   4351 .rce. at-spi-bus-laun
+                     ilyushchenko12   4356 .rce. dbus-daemon
+                     ilyushchenko12   4368 .rce. gnome-session-c
+                     ilyushchenko12   4388 .rce. dconf-service
+                     ilyushchenko12   4392 Frce. gnome-session-b
+                     ilyushchenko12   4408 Frce. gnome-shell
+                     ilyushchenko12   4439 .rce. ibus-daemon
+                     ilyushchenko12   4446 .rce. ibus-memconf
+                     ilyushchenko12   4447 .rce. ibus-extension-
+                     ilyushchenko12   4449 .rce. ibus-x11
+                     ilyushchenko12   4451 .rce. ibus-portal
+                     ilyushchenko12   4464 .rce. at-spi2-registr
+                     ilyushchenko12   4468 .rce. gnome-shell-cal
+                     ilyushchenko12   4469 .rce. xdg-permission-
+                     ilyushchenko12   4479 .rce. evolution-sourc
+                     ilyushchenko12   4490 frce. evolution-calen
+                     ilyushchenko12   4503 Frce. evolution-addre
+                     ilyushchenko12   4504 Frce. gvfsd-metadata
+                     ilyushchenko12   4522 .rce. gjs
+                     ilyushchenko12   4530 .rce. gvfsd-trash
+                     ilyushchenko12   4541 .rce. gsd-a11y-settin
+                     ilyushchenko12   4542 .rce. gsd-color
+                     ilyushchenko12   4544 .rce. gsd-datetime
+                     ilyushchenko12   4545 .rce. gsd-housekeepin
+                     ilyushchenko12   4547 .rce. gsd-keyboard
+                     ilyushchenko12   4548 Frce. gsd-media-keys
+                     ilyushchenko12   4551 .rce. gsd-power
+                     ilyushchenko12   4552 .rce. gsd-print-notif
+                     ilyushchenko12   4553 .rce. gsd-rfkill
+                     ilyushchenko12   4555 .rce. gsd-screensaver
+                     ilyushchenko12   4556 .rce. gsd-sharing
+                     ilyushchenko12   4557 .rce. gsd-smartcard
+                     ilyushchenko12   4558 .rce. gsd-sound
+                     ilyushchenko12   4567 .rce. gsd-usb-protect
+                     ilyushchenko12   4568 .rce. gsd-wacom
+                     ilyushchenko12   4570 .rce. gsd-wwan
+                     ilyushchenko12   4574 .rce. gsd-xsettings
+                     ilyushchenko12   4580 .rce. evolution-alarm
+                     ilyushchenko12   4600 .rce. gsd-disk-utilit
+                     ilyushchenko12   4613 .rce. vmtoolsd
+                     ilyushchenko12   4641 .rce. gsd-printer
+                     ilyushchenko12   4697 .rce. ibus-engine-sim
+                     ilyushchenko12   5137 .rce. gnome-calendar
+                     ilyushchenko12   5139 .rce. seahorse
+                     ilyushchenko12   5757 .rce. update-notifier
+                     ilyushchenko12  173829 frce. gvfsd-recent
+                     ilyushchenko12  174007 .rce. gvfsd-network
+                     ilyushchenko12  174407 .rce. gvfsd-dnssd
+                     ilyushchenko12  201316 Frce. gnome-terminal-
+                     ilyushchenko12  203030 .rce. bash
+                     ilyushchenko12  212028 Frce. script
+                     ilyushchenko12  212029 .rce. bash
+                     ilyushchenko12  214648 .rce. bash
+                     ilyushchenko12  214675 .rce. top
+                     ilyushchenko12  214877 .rce. bash
+                     ilyushchenko12  217704 .rce. bash
+                     ilyushchenko12  222418 Frce. vi
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v -m temp_test.txt .temp_test.txt  [A]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/temp_test.txt  [A]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+Specified filename /temp_test.txt does not exist.
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ fuser -v -m /temp_test.txt  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/temp_test.txt  [A]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\temp_test.txt  [A]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+                     USER        PID ACCESS COMMAND
+/home/ilyushchenko12/ilyushchenko/Worker-Service/temp_test.txt:
+                     root     kernel swap  /swapfile
+                     root     kernel mount /
+                     ilyushchenko12   4116 .rce. systemd
+                     ilyushchenko12   4126 Frce. pulseaudio
+                     ilyushchenko12   4128 Frce. tracker-miner-f
+                     ilyushchenko12   4136 .rce. dbus-daemon
+                     ilyushchenko12   4139 .rce. gvfsd
+                     ilyushchenko12   4144 .rce. gvfsd-fuse
+                     ilyushchenko12   4163 .rce. gvfs-udisks2-vo
+                     ilyushchenko12   4169 .rce. gvfs-afc-volume
+                     ilyushchenko12   4176 .rce. gvfs-goa-volume
+                     ilyushchenko12   4180 .rce. goa-daemon
+                     ilyushchenko12   4191 .rce. goa-identity-se
+                     ilyushchenko12   4198 .rce. gvfs-mtp-volume
+                     ilyushchenko12   4203 .rce. gdm-x-session
+                     ilyushchenko12   4204 .rce. gvfs-gphoto2-vo
+                     ilyushchenko12   4209 Frce. Xorg
+                     ilyushchenko12   4259 .rce. gnome-session-b
+                     ilyushchenko12   4351 .rce. at-spi-bus-laun
+                     ilyushchenko12   4356 .rce. dbus-daemon
+                     ilyushchenko12   4368 .rce. gnome-session-c
+                     ilyushchenko12   4388 .rce. dconf-service
+                     ilyushchenko12   4392 Frce. gnome-session-b
+                     ilyushchenko12   4408 Frce. gnome-shell
+                     ilyushchenko12   4439 .rce. ibus-daemon
+                     ilyushchenko12   4446 .rce. ibus-memconf
+                     ilyushchenko12   4447 .rce. ibus-extension-
+                     ilyushchenko12   4449 .rce. ibus-x11
+                     ilyushchenko12   4451 .rce. ibus-portal
+                     ilyushchenko12   4464 .rce. at-spi2-registr
+                     ilyushchenko12   4468 .rce. gnome-shell-cal
+                     ilyushchenko12   4469 .rce. xdg-permission-
+                     ilyushchenko12   4479 .rce. evolution-sourc
+                     ilyushchenko12   4490 frce. evolution-calen
+                     ilyushchenko12   4503 Frce. evolution-addre
+                     ilyushchenko12   4504 Frce. gvfsd-metadata
+                     ilyushchenko12   4522 .rce. gjs
+                     ilyushchenko12   4530 .rce. gvfsd-trash
+                     ilyushchenko12   4541 .rce. gsd-a11y-settin
+                     ilyushchenko12   4542 .rce. gsd-color
+                     ilyushchenko12   4544 .rce. gsd-datetime
+                     ilyushchenko12   4545 .rce. gsd-housekeepin
+                     ilyushchenko12   4547 .rce. gsd-keyboard
+                     ilyushchenko12   4548 Frce. gsd-media-keys
+                     ilyushchenko12   4551 .rce. gsd-power
+                     ilyushchenko12   4552 .rce. gsd-print-notif
+                     ilyushchenko12   4553 .rce. gsd-rfkill
+                     ilyushchenko12   4555 .rce. gsd-screensaver
+                     ilyushchenko12   4556 .rce. gsd-sharing
+                     ilyushchenko12   4557 .rce. gsd-smartcard
+                     ilyushchenko12   4558 .rce. gsd-sound
+                     ilyushchenko12   4567 .rce. gsd-usb-protect
+                     ilyushchenko12   4568 .rce. gsd-wacom
+                     ilyushchenko12   4570 .rce. gsd-wwan
+                     ilyushchenko12   4574 .rce. gsd-xsettings
+                     ilyushchenko12   4580 .rce. evolution-alarm
+                     ilyushchenko12   4600 .rce. gsd-disk-utilit
+                     ilyushchenko12   4613 .rce. vmtoolsd
+                     ilyushchenko12   4641 .rce. gsd-printer
+                     ilyushchenko12   4697 .rce. ibus-engine-sim
+                     ilyushchenko12   5137 .rce. gnome-calendar
+                     ilyushchenko12   5139 .rce. seahorse
+                     ilyushchenko12   5757 .rce. update-notifier
+                     ilyushchenko12  173829 frce. gvfsd-recent
+                     ilyushchenko12  174007 .rce. gvfsd-network
+                     ilyushchenko12  174407 .rce. gvfsd-dnssd
+                     ilyushchenko12  201316 Frce. gnome-terminal-
+                     ilyushchenko12  203030 .rce. bash
+                     ilyushchenko12  212028 Frce. script
+                     ilyushchenko12  212029 .rce. bash
+                     ilyushchenko12  214648 .rce. bash
+                     ilyushchenko12  214675 .rce. top
+                     ilyushchenko12  214877 .rce. bash
+                     ilyushchenko12  217704 .rce. bash
+                     ilyushchenko12  222418 Frce. vi
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ D[K0fuser -v -m \temp_test.txt  DDD[K[K[KDD[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt^C
+]0;ilyushchenko12@ubuntu: ~/ilyushchenko/Worker-Service[01;32milyushchenko12@ubuntu[00m:[01;34m~/ilyushchenko/Worker-Service[00m$ git[K[K[Kexit
+exit
+
+Script done on 2021-09-15 05:17:39-07:00 [COMMAND_EXIT_CODE="130"]
